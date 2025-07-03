@@ -1,10 +1,10 @@
 import {
-  mobile,
-  backend,
+  frontend,
   creator,
   web,
   javascript,
   typescript,
+  backend,
   html,
   css,
   reactjs,
@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  docker,  
   meta,
   starbucks,
   tesla,
@@ -46,8 +46,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
     title: "Backend Developer",

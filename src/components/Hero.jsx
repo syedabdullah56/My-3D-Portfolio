@@ -3,7 +3,7 @@ import {styles} from '../styles';
 import { ComputersCanvas } from './canvas';
 const Hero = () => {
   return (
-     <section className='relative w-full h-screen mx-auto'>
+     <section className='w-full h-screen mx-auto'>
 
          <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
 
@@ -19,9 +19,12 @@ const Hero = () => {
               </p>
             </div>
          </div>
-            <ComputersCanvas/>
 
-            <div className='absolute  xs:bottom-3 bottom-1 w-full flex justify-center items-center'>
+             
+             <ComputersCanvas />
+          
+            {/* No need of this now */}
+            {/* <div className='absolute  xs:bottom-3 bottom-1 w-full flex justify-center items-center'>
               <a href='#about'>
                 <div className='w-[30px] h-[50px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
                   <motion.div
@@ -34,12 +37,13 @@ const Hero = () => {
                       repeatType: 'loop'
                     }}
                     className='w-3 h-3 rounded-full bg-white mb-1'
-                  />   
+                  >  
+                  </motion.div> 
 
                   
                 </div>
               </a>
-            </div>
+            </div> */}
      </section>
   )
 }

@@ -17,7 +17,7 @@ const Computers = ({ groupRef }) => {
   }, [])
 
   return (
-    <group ref={groupRef}>
+    <group ref={groupRef} >
       <ambientLight intensity={0.3} />
       <directionalLight position={[0, 10, 5]} intensity={1.2} />
       <hemisphereLight intensity={0.5} groundColor="black" />
@@ -25,8 +25,8 @@ const Computers = ({ groupRef }) => {
 
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.5 : 0.65}
-        position={isMobile ? [0, -3.2, -1.5] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.35 : 0.60}
+        position={isMobile ? [-2.5, -3.2, -1.5] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </group>
