@@ -18,7 +18,8 @@ const Hero = () => {
                 I build modern full-stack web applications <br className='sm:block hidden'/> with sleek user interfaces and smooth user experiences.
               </p>
             </div>
-         </div>
+            
+         </div>  
 
              
              <ComputersCanvas />
