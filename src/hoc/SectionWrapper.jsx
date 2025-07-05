@@ -9,7 +9,7 @@ const SectionWrapper = (Component,idName) =>
                 variants={staggerContainer()}
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: true, amount: 0.25 }}
+                viewport={{ once: false, amount: 0.25 }}   //I have added once false and amount 0.25 to make sure the section is animated when it comes into view
                 className={`${styles.padding} max-w-7xl mx-auto relative left-[3vh] z-0`}
                 >
                 <span className="hash-span" id={idName}>
