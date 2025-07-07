@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import {About,Contact,Experience,Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas} from "./components"
+import {About,Contact,Experience,Feedbacks,Hero,Navbar,Tech,Projects,StarsCanvas} from "./components"
 const App = () => {
   const showExperience = true; // Setting this to false to hide the Experience section because I dont have any experience yet
   return (
@@ -11,7 +11,6 @@ const App = () => {
         <Hero />
       </div>
 
-    
       <About />
 
       {showExperience && 
@@ -19,11 +18,20 @@ const App = () => {
       <Experience />
       </div>}
 
+      <div className="relative top-[12vh]">
       <Tech />
-      <Works />
-      {showExperience && <Feedbacks />}
+      </div>
 
-      <div className="relative z-0">
+      <div className="relative top-[8vh]">
+      <Projects />
+      </div>
+
+      {showExperience && 
+      <div className="relative top-[8vh]">
+      <Feedbacks />
+      </div>}
+
+      <div className="relative z-0 top-[8vh]">
          <Contact />
           <StarsCanvas />
       </div>

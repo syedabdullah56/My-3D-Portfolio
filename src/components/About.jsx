@@ -29,7 +29,7 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => { 
   return ( 
     <>
-
+    
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>Introduction</p>
       <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -39,11 +39,12 @@ const About = () => {
       I'm a passionate full-stack developer who builds fast, modern, and responsive web applications — from pixel-perfect user interfaces to scalable back-end systems. With a strong foundation in both front-end and back-end technologies, I turn ideas into seamless digital experiences. Always curious, always evolving — let’s build something remarkable together.
     </motion.p>
 
-    <div className='mt-20 flex flex-wrap gap-10'>
+    <div className='mt-20 flex flex-wrap gap-10 '>
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service}/>   
            ))}
     </div>
+   
     </>
   )
 }

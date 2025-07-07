@@ -1,6 +1,5 @@
 import {
   frontend,
-  creator,
   web,
   javascript,
   typescript,
@@ -14,7 +13,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,  
   meta,
   starbucks,
   tesla,
@@ -22,7 +20,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+
 } from "../assets";
 
 export const navLinks = [
@@ -31,9 +29,14 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
+  {
+    id: "tech",
+    title: "Tech",
+  },
+
   {
     id: "contact",
     title: "Contact",
@@ -54,8 +57,9 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Next.js Developer",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+
   },
 ];
 
@@ -96,10 +100,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+ 
   {
     name: "git",
     icon: git,
@@ -109,9 +110,17 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name:"python",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
+  {
+    name:"nextjs",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+  },
+  {
+    name:"C",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+  }
 ];
 
 const experiences = [
