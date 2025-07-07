@@ -1,3 +1,4 @@
+import { li } from "framer-motion/client";
 import {
   frontend,
   web,
@@ -17,9 +18,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+ 
 
 } from "../assets";
 
@@ -207,9 +206,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "BaggyBuy",
+    description:"Web-based eCommerce platform that allows users to browse, purchase, and manage a wide range of products, while enabling admins to efficiently control inventory, orders, and user activity through a dedicated dashboard.",
     tags: [
       {
         name: "react",
@@ -220,55 +218,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: 'BaggyBuy.png',
+    source_code_link: "https://github.com/syedabdullah56/Baggy_Buy_Ecommerce_WebApp",
+    live_site_link: "https://baggybuy.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Dalzo",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "🔷 Dalzo is a web application that enables users to manage daily tasks, prioritize them by importance, and stay organized across all devices — helping individuals stay productive, focused, and in control of their day.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "clerk",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "Dalzo.png",
+    source_code_link: "https://github.com/syedabdullah56/Dalzo-A-Productivity-Software",
+    live_site_link: "https://dalzo.software/",
   },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

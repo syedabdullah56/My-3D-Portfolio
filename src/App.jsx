@@ -22,16 +22,16 @@ const App = () => {
       <Tech />
       </div>
 
-      <div className="relative top-[8vh]">
+      <div className="relative top-[20vh]">
       <Projects />
       </div>
 
       {showExperience && 
-      <div className="relative top-[8vh]">
+      <div className="relative top-[28vh]">
       <Feedbacks />
       </div>}
 
-      <div className="relative z-0 top-[8vh]">
+      <div className="relative z-0 top-[28vh]">
          <Contact />
           <StarsCanvas />
       </div>
