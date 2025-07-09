@@ -1,7 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @import "tailwindcss";
+.navbar{
+  padding:1vh 1.8vh;
+}
+.mob-nav{
+  padding:2vh;
+}
 
+.feedback-card{
+  padding:2vh;
+}
+.projects{
+  padding:2vh;
+}
+.tech{
+  padding:2vh;
+}
+
+.contact{
+  padding:2vh;
+}
+.form{
+  padding:1.2vh;
+}
+.label{
+  padding:2vh;
+}
+.sp{
+  margin-bottom:1.3vh ; 
+}
 * {
   margin: 0;
   padding: 0;

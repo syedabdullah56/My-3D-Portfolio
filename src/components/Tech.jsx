@@ -6,7 +6,7 @@ import { textVariant, fadeIn } from "../utils/motion";
 
 const Tech = () => {
   return (
-    <div className='w-full flex flex-col gap-y-[4vh]'>
+    <div className='tech w-full flex flex-col gap-y-[4vh]'>
       {/* Animated Heading */}
       <motion.div variants={textVariant()} initial="hidden" whileInView="show">
         <h2 className='text-3xl sm:text-4xl font-bold text-white'>
