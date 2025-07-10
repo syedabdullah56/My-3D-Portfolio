@@ -1,12 +1,29 @@
-# React + Vite
+# 🧑‍💻 Syed Abdullah – 3D Interactive Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually captivating and responsive 3D developer portfolio built with **React.js**, **Tailwind CSS**, **Three.js**, and **Framer Motion**. Showcases projects, skills, and testimonials with smooth transitions and reusable component architecture.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React.js** – Component-based frontend
+- 💨 **Tailwind CSS** – Utility-first responsive design
+- 🌌 **Three.js** – WebGL-based 3D rendering
+- 🎞 **Framer Motion** – Animations and transitions
+- 📬 **EmailJS** – Functional contact form
+- 🧩 **Reusable Components** – Modular and scalable
+- 🚀 **Vercel** – Deployment with custom domain
+
+
+
+## ✨ Features
+
+- ✅ Responsive layout across all devices
+- 🎨 3D hero canvas powered by Three.js
+- 📁 Project showcase with hover effects and animations
+- 🛠️ Technology stack section with interactive icons
+- 💬 Testimonials section with motion
+- 📬 Functional contact form using EmailJS
+- 📄 Resume download button
+- 🌟 Clean, scalable component architecture
+
