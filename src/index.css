@@ -7,7 +7,15 @@
 .mob-nav{
   padding:2vh;
 }
+.links{
+  margin-top: 2vh;
+  position: relative;
+  z-index: 50;
+}
+.resume-button{
+  padding:1vh 1.8vh;
 
+}
 .feedback-card{
   padding:2vh;
 }
